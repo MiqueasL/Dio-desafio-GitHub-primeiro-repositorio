@@ -1,0 +1,14 @@
+Adicionar usuario
+
+git config --global user.name "Seu nome"
+
+git config --global user.email "email@dominio.com"
+
+Verificar usuario
+
+git config --global --list
+
+Deletar
+
+git config --global --unset-all user.name
+

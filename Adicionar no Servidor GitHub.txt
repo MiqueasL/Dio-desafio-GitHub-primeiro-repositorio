@@ -1,0 +1,15 @@
+Copiar o link Http
+
+git clone
+
+Identificar local
+
+git add .  ou git add -A
+
+Criar commit
+
+git commit -m "inclusao das anotacoes git/github"
+
+Enviar servidor
+
+git push origin main

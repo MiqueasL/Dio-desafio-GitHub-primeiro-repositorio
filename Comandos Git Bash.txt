@@ -1,0 +1,23 @@
+Criar chave SSH
+
+ssh-keygen -t ed25519 -C email@email.com
+
+Diretorio
+
+cd /c/Users/Estudo/.ssh/
+
+Ls
+
+id_ed25519  id_ed25519.pub
+
+Chave publica
+
+cat id_ed25519.pub
+
+pwd
+
+eval $(ssh-agent -s)
+
+Adicionar
+
+ssh-add id_ed25519
